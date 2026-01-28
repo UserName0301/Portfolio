@@ -31,6 +31,16 @@ body {
     text-align: center;
 }
 
+a {
+    color: #7C859B; /* hoặc màu bạn muốn, ví dụ #A03032 */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0abe6a
+}
+
+
 .profile .avatar {
     width: 140px;
     height: 140px;
@@ -102,6 +112,14 @@ body {
         background-image: url('icons/email.png');
     }
 
+    .icon.facebook {
+        background-image: url('icons/facebook.png');
+    }
+
+    .icon.telephones {
+        background-image: url('icons/telephones.png');
+    }
+
 /* Nội dung bên phải */
 .content {
     margin-left: var(--sidebar-width); /* tự động theo width sidebar */
@@ -122,6 +140,10 @@ section h2 {
     border: 1px solid #ddd;
     margin-bottom: 2rem;
     text-align: center;
+    transition: transform 0.3s ease;
+}
+.project:hover{
+    transform: scale(1.1);
 }
 
     .project img {
@@ -138,6 +160,7 @@ section h2 {
 
         .project a:hover {
             text-decoration: underline;
+            color: #0abe6a;
         }
 
 /* Footer */
