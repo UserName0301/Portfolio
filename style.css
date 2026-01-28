@@ -130,7 +130,7 @@ a:hover {
 
 section h2 {
     color: #7C859B;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .project {
@@ -138,7 +138,7 @@ section h2 {
     padding: 1rem;
     border-radius: 8px;
     border: 1px solid #ddd;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     text-align: center;
     transition: transform 0.3s ease;
 }
