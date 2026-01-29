@@ -3,11 +3,22 @@
     box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
     background: #fff;
     color: #7C859B;
+}
+
+.tagname{
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    color: #ffffff;
 }
 
 /* Định nghĩa biến cho chiều rộng sidebar */
@@ -40,7 +51,6 @@ a:hover {
     color: #0abe6a
 }
 
-
 .profile .avatar {
     width: 200px;
     height: 200px;
@@ -55,20 +65,30 @@ a:hover {
 }
 
 .profile .tagline {
-    font-size: 0.95rem;
+    font-size: 1.25rem;
     line-height: 1.4;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    color: #c4c1c1;
 }
 
 .profile .btn {
-    display: inline-block;
+    display: block;
+    margin: 0.5rem 0;
     padding: 0.6rem 1.2rem;
     background: #fff;
-    color: #7C859B;
+    color: #272424;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: all 0.3s ease;
 }
+
+.profile .btn:hover {
+    background-color: #d8d4d4; /* xám nhạt */
+    /* transform: scale(1.1); */
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.2); */
+}
+
 
 /* Icon mạng xã hội */
 .social-icons {
