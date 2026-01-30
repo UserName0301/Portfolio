@@ -20,7 +20,7 @@ html {
 hr {
   border: none;
   border-top: 1px solid #e5e7eb; /* màu xám nhạt */
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 .highlighttext{
@@ -116,7 +116,6 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    /* margin-top: auto; */
     margin-top: 2rem;
 }
 
@@ -193,7 +192,7 @@ section h2 {
 }
 
 .projects h2 {
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
 }
 
 .project:hover{
@@ -266,7 +265,6 @@ footer {
 }
 
 .contact {
-    margin-top: 4rem;
     text-align: left;
 }
 
@@ -352,14 +350,12 @@ footer {
 .aboutMe {
   max-width: 1100px;
   margin: auto;
-  padding: 20px 20px;
 }
 
 .info-block {
   display: flex;
   align-items: center;
   gap: 50px;
-  margin-top: 60px;
 }
 
 .info-block.reverse {
