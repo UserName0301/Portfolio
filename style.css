@@ -7,6 +7,27 @@ html {
   scroll-behavior: smooth;
 }
 
+/* chu gach dut */
+.dashed-underline {  
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: #7C859B;
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 1.5px;
+}
+
+/* line nét liền */
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb; /* màu xám nhạt */
+  margin: 40px 0;
+}
+
+.highlighttext{
+    color: #ffffff;          
+    font-weight: 600;
+}
+
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
