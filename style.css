@@ -313,7 +313,7 @@ footer {
 }
 
 .info-block {
-  display: flex;
+  /*display: flex;*/
   align-items: center;
   gap: 50px;
 }
@@ -410,6 +410,6 @@ footer {
   .info-block,
   .info-block.reverse {
     flex-direction: column;
-    /*text-align: center;*/
+    text-align: center;
   }
 }
