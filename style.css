@@ -314,7 +314,7 @@ footer {
 
 .info-block {
   /*display: flex;*/
-  align-items: center;
+  /*align-items: center;*/
   gap: 50px;
 }
 
